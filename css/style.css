@@ -1,0 +1,262 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Source Code Pro", monospace;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: url(/img/intro-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 776px;
+}
+header .nav {
+  display: flex;
+  flex-direction: column;
+}
+header .nav .nav__links {
+  display: flex;
+  flex-direction: column;
+  letter-spacing: 1px;
+  line-height: 40px;
+  width: 120px;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  background-color: rgba(130, 175, 195, 0.1058823529);
+  border: 1px solid rgba(255, 255, 255, 0.089);
+  gap: 5px;
+  justify-content: center;
+  border-radius: 5px;
+  transition: 1s;
+  padding: 10px;
+  overflow: hidden;
+  text-align: center;
+}
+header .nav .nav__links a {
+  color: #000;
+  transition: 0.7s;
+}
+header .nav .nav__links a:hover {
+  background-color: rgba(107, 121, 128, 0.5058823529);
+  color: #ffffff;
+  border-radius: 2px;
+}
+
+.herro {
+  padding: 140px 0;
+}
+.herro h2 {
+  text-align: center;
+  padding: 0 0 80px 0;
+}
+.herro .herro__info {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.herro .herro__info p {
+  width: 450px;
+  line-height: 35px;
+  text-align: justify;
+}
+
+.works {
+  padding: 100px 0;
+}
+.works h2 {
+  text-align: center;
+  padding: 0 0 80px 0;
+  text-transform: uppercase;
+}
+.works .works__items {
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  gap: 60px;
+}
+.works .works__items .works__item {
+  text-align: center;
+  transition: 0.7s;
+}
+.works .works__items .works__item img {
+  margin-bottom: 10px;
+}
+.works .works__items .works__item:hover {
+  transform: scale(1.04);
+}
+.works .works__items .works__item a {
+  color: #000;
+}
+.works .works__items .works__item a:hover {
+  color: rgba(51, 51, 51, 0.568627451);
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  align-items: center;
+  padding: 100px;
+}
+
+.up {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5em;
+}
+
+.down {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5em;
+}
+
+.card1 {
+  width: 90px;
+  height: 90px;
+  outline: none;
+  border: none;
+  background: white;
+  border-radius: 90px 5px 5px 5px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  transition: 0.2s ease-in-out;
+}
+
+.instagram {
+  margin-top: 1.5em;
+  margin-left: 1.2em;
+  fill: #cc39a4;
+}
+
+.card2 {
+  width: 90px;
+  height: 90px;
+  outline: none;
+  border: none;
+  background: white;
+  border-radius: 5px 90px 5px 5px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  transition: 0.2s ease-in-out;
+}
+
+.facebook {
+  margin-top: 1.5em;
+  margin-left: -0.9em;
+  fill: #03A9F4;
+}
+
+.card3 {
+  width: 90px;
+  height: 90px;
+  outline: none;
+  border: none;
+  background: white;
+  border-radius: 5px 5px 5px 90px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  transition: 0.2s ease-in-out;
+}
+
+.whatsapp {
+  margin-top: -0.6em;
+  margin-left: 1.2em;
+  fill: #00ff00;
+}
+
+.card4 {
+  width: 90px;
+  height: 90px;
+  outline: none;
+  border: none;
+  background: white;
+  border-radius: 5px 5px 90px 5px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  transition: 0.2s ease-in-out;
+}
+
+.gmail {
+  margin-top: -0.9em;
+  margin-left: -1.2em;
+  fill: #f14336;
+}
+
+.card1:hover {
+  cursor: pointer;
+  scale: 1.1;
+  background-color: #cc39a4;
+}
+
+.card1:hover .instagram {
+  fill: white;
+}
+
+.card2:hover {
+  cursor: pointer;
+  scale: 1.1;
+  background-color: #1877f2;
+}
+
+.card2:hover .facebook {
+  fill: white;
+}
+
+.card3:hover {
+  cursor: pointer;
+  scale: 1.1;
+  background-color: #00ff00;
+}
+
+.card3:hover .whatsapp {
+  fill: white;
+}
+
+.card4:hover {
+  cursor: pointer;
+  scale: 1.1;
+  background-color: #FF0004;
+}
+
+.card4:hover .gmail {
+  fill: white;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  height: 100px;
+  background-color: #AACFDF;
+  width: 100%;
+  color: black;
+  text-align: center;
+  font-size: 16px;
+}
+footer a {
+  text-transform: lowercase;
+  color: #fff;
+}
+footer a:hover {
+  color: rgba(255, 255, 255, 0.3215686275);
+}/*# sourceMappingURL=style.css.map */
