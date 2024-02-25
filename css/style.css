@@ -163,10 +163,10 @@ header .nav .nav__links a:hover {
   transition: 0.2s ease-in-out;
 }
 
-.facebook {
-  margin-top: 1.5em;
+.telegram {
+  margin-top: 1em;
   margin-left: -0.9em;
-  fill: #03A9F4;
+  fill: #ffffff;
 }
 
 .card3 {
@@ -216,10 +216,10 @@ header .nav .nav__links a:hover {
 .card2:hover {
   cursor: pointer;
   scale: 1.1;
-  background-color: #1877f2;
+  background-color: #04e9f9;
 }
 
-.card2:hover .facebook {
+.card2:hover .telegram {
   fill: white;
 }
 
