@@ -32,9 +32,9 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: url(/img/intro-bg.jpg);
+    background: #AACFDF url(https://images.unsplash.com/photo-1628270680011-41792b21de87?q=80&w=1771&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
     background-repeat: no-repeat;
-    background-size: 100%;  
+    background-size: 100%;
 
     height: 776px;
 
@@ -52,7 +52,7 @@ header {
 
             width: 120px;
             backdrop-filter: blur(10px);
-            -webkit-backdrop-filter: blur(10px); 
+            -webkit-backdrop-filter: blur(10px);
             background-color: #82afc31b;
             border: 1px solid rgba(255, 255, 255, 0.089);
             gap: 5px;
